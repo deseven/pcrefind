@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.20 LTS (Windows - x86)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="PCREfinder"/>
+  </section>
+  <section name="data">
+    <explorer view="C:\Users\deseven\Documents\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2014-03-16 23:03" user="deseven" host="DE7"/>
+  </section>
+  <section name="files">
+    <file name="main.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="ced581570a049d06224797c0272844af"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="main.pb"/>
+      <outputfile value="pcrefind.exe"/>
+      <executable value="pcrefind.exe"/>
+      <options thread="1" xpskin="1" debug="1"/>
+      <temporaryexe value="source"/>
+      <icon enable="1">
+        main.ico
+      </icon>
+      <buildcount enable="1" value="17"/>
+      <versioninfo enable="1">
+        <field0 value="1,2,1,%BUILDCOUNT"/>
+        <field1 value="1,2,1,%BUILDCOUNT"/>
+        <field2 value="solution"/>
+        <field3 value="pcrefinder"/>
+        <field4 value="1.2"/>
+        <field5 value="1.2"/>
+        <field6 value="PCREfinder"/>
+        <field7 value="pcrefind.exe"/>
+        <field8 value="pcrefind.exe"/>
+        <field9 value="deseven"/>
+      </versioninfo>
+    </target>
+  </section>
+</project>
